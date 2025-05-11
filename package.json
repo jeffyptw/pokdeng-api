@@ -1,17 +1,25 @@
 {
   "name": "pokdeng-api",
   "version": "1.0.0",
+  "description": "API for Pok Deng card calculations and game logic",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "pokdeng",
+    "api",
+    "cardgame"
+  ],
+  "author": "Your Name (jeffyptw)",
   "license": "ISC",
-  "description": "API for Pok Deng card calculations",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
   }
 }
