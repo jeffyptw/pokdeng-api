@@ -1,7 +1,7 @@
 // src/index.js
 const express = require('express');
 const cors = require('cors'); // ★ เพิ่ม cors
-const gameRoutes = require('../routes/gameRoutes'); // ★ แก้ไข path ถ้า gameRoutes อยู่ใน ../routes/
+const gameRoutes = require('./routes/gameRoutes'); // Path นี้ถูกต้องถ้า routes/ อยู่ระดับเดียวกับ index.js
 
 const app = express();
 const PORT = process.env.PORT || 3000; // Render จะกำหนด PORT ให้เอง
