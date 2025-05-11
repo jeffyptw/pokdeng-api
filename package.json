@@ -1,19 +1,17 @@
 {
   "name": "pokdeng-api",
   "version": "1.0.0",
-  "description": "API for Pok Deng card calculations",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node src/index.js", 
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "description": "API for Pok Deng card calculations",
   "dependencies": {
-    "cors": "^2.8.5",  
+    "cors": "^2.8.5",
     "express": "^4.19.2"
-
   }
 }
